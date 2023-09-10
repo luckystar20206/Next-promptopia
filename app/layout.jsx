@@ -15,6 +15,9 @@ export const metadata = {
       },
     ],
   },
+  icons: {
+    icon: "/assets/images/logo.svg",
+  },
 };
 
 const RootLayout = ({ children }) => {
