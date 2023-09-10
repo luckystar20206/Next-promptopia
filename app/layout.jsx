@@ -6,6 +6,15 @@ import Provider from "@components/Provider";
 export const metadata = {
   title: "Promptopia",
   description: "Discover and Share AI Prompts",
+  openGraph: {
+    title: "Promptopia",
+    description: "Discover and Share AI Prompts",
+    images: [
+      {
+        url: "https://i.ibb.co/mtRSg6p/Screenshot-233.png",
+      },
+    ],
+  },
 };
 
 const RootLayout = ({ children }) => {
